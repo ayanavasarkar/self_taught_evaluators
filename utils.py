@@ -12,7 +12,7 @@ def call_together_ai(prompt, client) -> str:
 
 def together_ai_client():
     # if api_key is None:
-    api_key = "e91db0f4e4e8f06c89b83783344fa2a2d6866325b846820c671d6d306faeaecd"
+    api_key = ""    # Place your API Key
     client = Together(api_key=api_key)
     return client
 
